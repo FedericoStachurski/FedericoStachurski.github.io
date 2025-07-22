@@ -108,3 +108,38 @@ footer {
 .project-card a:hover {
     background: #0097a7;
 }
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00bcd4;
+}
+
+.about-section div {
+    flex: 1;
+    min-width: 280px;
+}
+
+.about-section h2 {
+    margin-bottom: 10px;
+}
+
+.about-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-section li::before {
+    content: "✔ ";
+    color: #00bcd4;
+}
